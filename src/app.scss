@@ -1,0 +1,22 @@
+main {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+}
+
+body {
+  @font-face {
+    font-family: "Rg-R";
+    font-style: normal;
+    font-weight: 100;
+    src: url("$lib/font/SDRGGothicNeoRoundTTF-aRg.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Rg-B";
+    font-style: normal;
+    font-weight: 100;
+    src: url("$lib/font/SDRGGothicNeoRoundTTF-bBd.woff") format("woff");
+  }
+  font-size: 16px;
+  overflow: hidden;
+}
